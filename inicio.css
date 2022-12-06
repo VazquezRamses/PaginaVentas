@@ -1,0 +1,284 @@
+.cont1 {		
+	background: #7E96E7 ;
+	height: 200px;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px;
+}
+			
+body {	
+	background: #7E96E7 ;
+	padding-bottom: 10%;
+}
+			
+.container {
+	width:100%;
+	max-width: 1200px;
+	height: auto;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	font-family: Consolas; 
+}
+
+
+
+.card {
+	height: 400px;		
+	width: 330px;
+	display: inline-block;
+	text-align: center;
+	margin: 15px;
+	border-radius: 8px;
+	background-color: #91B8F4;
+	box-shadow: 4px 10px 12px rgba(59, 73, 95,0.2), 4px 10px 12px rgba(59, 73, 95,0.24);
+	text-align:center;
+	overflow:hidden;
+	transition: all 0.25s;
+}
+
+.card:hover {
+	transform: translateY(-15px);
+	box-shadow: 4px 10px 12px rgba(59, 73, 95,0.2), 4px 10px 12px rgba(59, 73, 95,0.24);
+}
+
+
+.card img{
+	width: 300px;
+	height: 225px;
+	margin: 10px;
+}
+
+.card h3 {
+	font-weight: 600;
+}
+
+.card p {
+	padding: 4px 1rem;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.card p a {
+	padding: 5px 5px;
+	text-decoration: none;
+	border: 2px solid #166C3B;
+	color: black;
+	font-weight:bold;
+	line-heigth:normal;
+	border-radius: 50px;
+	text-align:center;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;		
+	transition:all 500ms ease;	
+}
+
+.card a:hover {
+	background: #3CE13E;
+}
+
+.container2 {
+	width:100%;
+	height: 1200px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	font-family: Consolas; 
+	font-size: 22px;
+}
+			
+.Detalle {
+	height: auto;
+	width: 900px;
+	background: blue;		
+	display: inline-block;
+	text-align: center;
+	margin: 30px;
+	border-radius: 8px;
+	background-color: #91B8F4;
+	box-shadow: 4px 10px 12px rgba(59, 73, 95,0.2), 4px 10px 12px rgba(59, 73, 95,0.24);
+	overflow:hidden;
+	transition: all 0.25s;
+}
+			
+.imagen {
+	width: 400px;
+	height: 450px;
+	margin: 20px 20px; 
+	text-align: center;
+	background: white;
+	
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	
+	border: 2px solid blue;						
+}
+			
+.Detalle .imagen img{
+	width: 300px;
+	height: 400px;
+	margin: 25px;
+}
+
+.Detalle p a {
+	padding: 5px 5px;
+	text-decoration: none;
+	border: 2px solid #166C3B;
+	color: black;
+	font-weight:bold;
+	line-heigth:normal;
+	border-radius: 50px;
+	text-align:center;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;		
+	transition:all 500ms ease;	
+}
+
+.Detalle p {
+	padding: 4px 1rem;
+}
+
+.Detalle a:hover {
+	background: #3CE13E;
+}
+
+.Descripcion {
+	background: white;
+	display: inline-block;		
+	border: 2px solid blue;					
+	text-align: middle;
+	height: 300px;
+	width: 400px;
+	text-align: center;
+	overflow: scroll;
+}
+
+.Cantidad {
+	width: 100px;
+	height: 40px;
+	border-radius: 24px;
+	text-align: center;
+	border: 2px solid blue; 
+	font-size: 25px;
+}
+
+.Detalle input[type="submit"]
+{
+	text-align: center;
+	width: 130px;
+	height: 50px;
+	border-radius: 24px;
+	transition: 0.25s;
+	background-color: #91B8F4;
+	font-size: 25px;
+	padding: 5px 5px;
+	text-decoration: none;
+	
+	border: 4px solid #166C3B;
+	color: black;
+	font-weight:bold;
+	line-heigth:normal;
+}
+
+.Detalle input[type="submit"]:hover {
+	background: #3CE13E;
+	cursor: hand;
+}
+
+
+.Carrito { 
+	width: 1200;
+	height: 200px;
+	text-align: center;
+	font-size: 30px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	font-family: Consolas; 
+	overflow-y: scroll;
+	margin: 25px auto;
+}
+
+.Tabla {
+	border: 4px solid #0F2674;
+	background-color: white;
+	text-align: left;
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	
+}
+
+.Tabla button {
+	width:110px;
+	height: 20px;
+	border-radius:20px;
+	background-color: #2E86C1;
+	border: 2px solid #0F2674;	
+}
+
+.Tabla button:hover{
+	background: #3A456A;
+	cursor: hand;
+	color: white;
+}
+
+
+
+.Fila_Campos {
+	background-color: #2E86C1;
+	border: 4px solid #0F2674;
+	height: 25px;
+    width: 30px;
+	padding: 1px;
+	font-size: 20px;
+}
+
+.Fila {
+	width: 500px;
+	height: 30px;
+}
+.Fila:nth-child(even) {
+	background-color: #ddd;
+}
+
+.Fila:hover{
+	background-color: #7BAEE4;
+	color: black;
+	font-weight: bold;
+}
+
+.botonC {
+	width: 1200;
+	height: 200px
+	text-align: center;
+	font-size: 30px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	font-family: Consolas; 
+	margin: 25px auto;
+}
+
+.botonC button {
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	border-radius:20px;
+	background-color: #2E86C1;
+	border: 2px solid #0F2674;	
+}
+
+.botonC button:hover{
+	background: #3A456A;
+	cursor: hand;
+	color: white;
+}
+
